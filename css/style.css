@@ -1,0 +1,454 @@
+
+
+
+body{
+	font-family: 'Catamaran', sans-serif;
+	font-size: 18px;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box}
+
+.icon{
+	    text-align: center;
+    padding: 35px 0;
+    background: #fff;
+}
+
+.icon-bar{
+	margin-top: 20px
+}
+
+.icon i{
+	color: #50A250;
+	    width: 60px;
+    height: 60px;
+    background: #fff;
+    border: 1px solid #50A250;
+    border-radius: 100%;
+    line-height: 60px;
+    text-align: center;
+}
+
+.icon:hover{
+    background: #50A250;
+color: #fff;}
+
+.icon p{
+	color:rgba(105, 75, 75, 0.77);
+
+}  
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    text-transform: capitalize;
+    padding: 20px 0;
+    font-weight: 700;
+    color:  #50A250;
+    font-size: 18px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff}
+
+  .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #50A250;}
+
+ .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #fff;
+    background-color: transparent;}
+
+ .navbar-default .navbar-brand {
+    color: #fff;
+font-size: 25px;} 
+
+.navbar-header span{
+	color: #50A250;
+}
+
+ .carousel-inner>.item>img {
+    line-height: 1;
+    width: 1500px;
+    max-width: 100%;
+    height: 100vh;} 
+
+
+.carousel-caption img{
+	    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+        margin: 0 auto;
+}
+
+.carousel-caption h1{
+    text-transform: capitalize;
+    font-weight: 700;
+    text-align: center;
+}
+
+.carousel-caption p{
+	     
+
+      font-size: 17px;
+    max-width: 100%;
+    text-align: center;
+  
+
+  
+}
+
+.about{
+	background: #fff;
+	
+	    margin-top: 120px;
+	    padding-bottom: 120px
+}
+
+.about h2{
+    margin: 0;
+    padding: 0;
+        font-weight: 700;
+    font-size: 35px;
+}
+.about h3{
+	    padding: 0;
+    margin: 0;
+    margin-top: 5px;
+      font-weight: 600;
+   
+}
+.about p{
+	    font-size: 18px;
+    line-height: 23px;
+    padding: 20px 0;
+        color: rgba(123, 111, 111, 0.89)
+}
+
+.btn-custom{
+	text-transform: capitalize;
+    border-radius: 0px;
+    background: #50A250;
+    color: #fff;
+    border: 1px solid #50A250;
+        font-size: 18px;
+}
+
+.btn:focus, .btn:hover {
+    color: #333;
+    text-decoration: none;
+    background: #fff;
+    color: #50A250;}
+
+    .btn:active:focus, .btn:focus {
+    outline: transparent;
+    outline-offset: -2px;}
+
+.service{
+	background: #F6F6F6;
+	min-height: 100vh;
+}
+
+.service-contant >h2{
+    text-transform: capitalize;
+    font-weight: 600;
+    text-align: center;
+    padding: 30px 0;
+
+}
+
+.service-contant{
+	text-align: center;
+	margin-bottom: 40px
+}
+
+.slider{
+	    background: url(../images/slider-img.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.slider-container{
+
+    position: absolute;
+    background: rgba(0, 0, 0, 0.64);
+    width: 100%;
+    height: 100%;
+}
+
+
+.complet-project{
+	    background: url(../images/slider-img.png);
+    /* min-height: 290px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative; */
+    background-position: 100%;
+    margin-top: 40px;}
+
+.project-container{
+	    background: rgba(0, 0, 0, 0.64);
+    width: 100%;
+    /* min-height: 100%; */
+    text-align: center;
+    /* position: absolute; */
+}
+.project-container h3{
+	padding-top: 30px;
+    font-size: 41px;
+    color: #50A250;
+}
+
+.project-container p{
+    font-size: 18px;
+    color: #fff;
+    padding-bottom: 30px;
+
+}
+
+.cp{
+
+}
+
+.experience{
+	background: #F6F6F6;
+	padding: 50px 0;
+	min-height: 100vh;
+}
+
+.experience span{
+	font-size: 16px;
+	 text-align: justify;
+}
+
+.experience p{
+	    font-size: 18px;
+    text-align: justify;
+    margin-top: 10px;
+}
+.experience h3{
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.bar{
+	background: #fff;
+	padding: 30px 0;
+}
+
+.img-blank img{
+
+max-width: 100%;
+height: 200px;
+}
+
+.space{
+	margin-top: 20px
+}
+
+.work{
+	min-height: 100vh;
+}
+
+
+.client{
+    background: url(../images/slider-img.png);
+    min-height: 350px;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+}
+
+.bg{
+	    background: rgba(23, 15, 15, 0.64);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+}
+
+.client h2{
+color: #fff;
+font-weight: 600;
+    margin-top: 110px;
+}
+
+.client p{
+	color: #fff;
+
+}
+
+.get-icon:hover{
+	background: transparent;
+}
+
+
+.get-icon{
+display: inline-block;
+padding-right: 25px;
+}
+
+.get h2{
+	    text-align: center;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 20px 0;
+}
+.get-content{
+	display: inline-block;
+
+	margin-top: 20px !important;	
+}
+
+.get-content h3{
+	    font-weight: 600;
+
+	  margin: 0;}
+
+	  .center{
+	  	text-align: center;
+	  }
+
+.name{
+	margin-bottom: 10px;
+}
+
+.name input{
+	border-bottom: 1px solid #47bf42;
+}
+.name textarea{
+	border-bottom: 1px solid #47bf42;
+	margin-bottom: 20px
+}
+
+.map iframe {
+    width: 100%;
+    height: 40vh;
+}
+
+.map{
+	margin: 30px 0
+}
+
+.bottom-fotter{
+	text-align: center;
+}
+
+.btn-success {
+    color: #4cae4c;
+    background-color: #fff;
+border-color: transparent;}
+
+.bottom-fotter p{
+margin: 0;
+    font-size: 15px;
+}
+
+.btn-success:hover {
+    
+    border-color: transparent}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="touch">
+  
+  <din class="container">
+    <div class="row">
+      <div class="col-md-12 inputs">
+        
+        <h2>GET IN TOUCH</h2>
+
+
+         <div class="col-md-4 col-sm-6 col-xs-12  overflow">
+          
+
+          <div class="b-icon ">
+          
+        <i class="fa fa-plane" aria-hidden="true"></i>
+          </div>
+         <div class="icon-contant">
+         <h3>LOACTION :</h3>
+            <p>Dhaka,Bangladesh</p>
+         </div>
+
+        </div>
+
+
+        <div class="col-md-4 col-sm-6 col-xs-12  overflow">
+          
+
+          <div class="b-icon ">
+          
+        <i class="fa fa-plane" aria-hidden="true"></i>
+          </div>
+         <div class="icon-contant">
+         <h3>LOACTION :</h3>
+            <p>Dhaka,Bangladesh</p>
+         </div>
+
+        </div>
+
+
+        <div class="col-md-4 col-sm-6 col-xs-12  overflow">
+          
+
+          <div class="b-icon ">
+          
+        <i class="fa fa-plane" aria-hidden="true"></i>
+          </div>
+         <div class="icon-contant">
+         <h3>LOACTION :</h3>
+            <p>Dhaka,Bangladesh</p>
+         </div>
+
+        </div>
+
+        </div>
+
+       
+
+
+<form class="center">
+  <div class="col-md-6 col-sm-6 col-xs-12">
+    <input type="text" class="form-control" placeholder="Name">
+  </div>   
+
+    <div class="col-md-6 col-sm-6 col-xs-12">
+    <input type="text" class="form-control" placeholder="Email">
+  </div> 
+
+  <div class="col-md-12 col-sm-6 col-xs-12">
+    <textarea type="text" rows="7" class="form-control" placeholder="Your Message"></textarea>
+  </div>
+
+  <div class="col-md-12 col-sm-12 col-xs-12 margin">
+    <button class="btn btn-custom">Submit Now</button>
+  </div>
+</form>
+
+      </div>
+    </div>
+  </din>
+</section>
